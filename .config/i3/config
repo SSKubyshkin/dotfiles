@@ -234,3 +234,6 @@ exec feh --bg-scale ~/Repositories/wallpapers/0001.jpg
 
 # start picom for some transparency
 exec --no-startup-id picom -b
+
+# keyboard layout
+exec_always "setxkbmap -model pc104 -layout us,ru -variant ,, -option grp:alt_shift_toggle"
