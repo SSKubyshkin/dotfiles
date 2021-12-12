@@ -186,6 +186,9 @@ smart_borders on
 # kitty as default terminal emulator
 bindsym $mod+Return exec kitty
 
+# thunar as default file manager
+bindsym $mod+shift+Return exec thunar
+
 # interactive screenshot by pressing printscreen
 bindsym Print exec gnome-screenshot -i 
 # crop-area screenshot by pressing Mod + printscreen
