@@ -144,6 +144,6 @@ eval "$(starship init bash)"
 reset && neofetch
 
 # Custom aliases
-alias vpnon="protonvpn-cli c JP-FREE#2 -p TCP"
-alias vpnoff="protonvpn-cli d"
+alias vpnon="sudo protonvpn-cli c JP-FREE#2 -p TCP"
+alias vpnoff="sudo protonvpn-cli d"
 alias vpncheck="protonvpn-cli s"
