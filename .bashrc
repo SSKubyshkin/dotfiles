@@ -146,8 +146,8 @@ alias vpnon="sudo protonvpn-cli c JP-FREE#2 -p TCP"
 alias vpnoff="sudo protonvpn-cli d"
 alias vpncheck="protonvpn-cli s"
 
+reset && neofetch
+
 # BEGIN_KITTY_SHELL_INTEGRATION
 if test -n "$KITTY_INSTALLATION_DIR" -a -e "$KITTY_INSTALLATION_DIR/shell-integration/bash/kitty.bash"; then source "$KITTY_INSTALLATION_DIR/shell-integration/bash/kitty.bash"; fi
 # END_KITTY_SHELL_INTEGRATION
-
-reset && neofetch
