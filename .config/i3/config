@@ -208,7 +208,7 @@ bar {
 ### CUSTOMS ###
 
 # smart gaps & borders
-smart_gaps on
+# smart_gaps on
 smart_borders on
 
 # kitty as default terminal emulator
