@@ -1,6 +1,7 @@
 " essentials
 set number          " line numbers
 set spell           " enable spell check
+set spelllang=ru_ru,en_us
 
 " tabs
 set tabstop=4       " size of a hard tab stop
@@ -15,4 +16,5 @@ set cc=80           " set an 80 column border for good coding
 
 " search
 set hlsearch        " highlight search 
-set incsearch       " incremental search
+set incsearch       " find as you type search
+set ignorecase      " case insensitive search
