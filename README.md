@@ -1,2 +1,15 @@
 # dotfiles
-Just copy files you need to your home folder!
+
+## Currenly incuded
+
+* Bash;
+* Vim;
+* Neovim;
+* Amfora;
+* Thunar (gtk);
+* i3-gaps;
+* i3status;
+* Kitty Terminal;
+* Zathura;
+* picom;
+* Starship.
