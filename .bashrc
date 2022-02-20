@@ -142,7 +142,7 @@ ex ()
 eval "$(starship init bash)"
 
 # Custom aliases
-alias vpnon="protonvpn-cli c -f"
+alias vpnon="protonvpn-cli c -f -p tcp"
 alias vpnoff="protonvpn-cli d"
 alias vpncheck="protonvpn-cli s"
 
