@@ -15,6 +15,11 @@ set noexpandtab     " always uses tabs instead of space characters
 syntax on           " syntax highlighting
 set cc=80           " set an 80 column border for good coding
 
+" automatically create matching brackets
+inoremap { {}<Left>
+inoremap ( ()<Left>
+inoremap [ []<Left>
+
 " search
 set hlsearch        " highlight search 
 set incsearch       " find as you type search
