@@ -2,6 +2,7 @@
 set number          " line numbers
 set spell           " enable spell check
 set spelllang=ru_ru,en_us
+set mouse=a         " enable mouse interactions
 
 " tabs
 set tabstop=4       " size of a hard tab stop
