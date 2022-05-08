@@ -4,6 +4,8 @@ set spell           " enable spell check
 set spelllang=en_us,ru_ru
 set mouse=a         " enable mouse interactions
 
+set clipboard+=unnamedplus " use system clipboard
+
 " tabs
 set tabstop=4       " size of a hard tab stop
 set shiftwidth=4    " size of an indentation
