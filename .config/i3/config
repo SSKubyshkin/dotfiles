@@ -142,8 +142,8 @@ bindsym Print exec gnome-screenshot -i
 bindsym $mod+Print exec gnome-screenshot -a
 
 # Set inner/outer gaps
-gaps inner 10
-gaps outer 0
+# gaps inner 10
+# gaps outer 0
 
 # remove title
 for_window [class="^.*"] border pixel 7
