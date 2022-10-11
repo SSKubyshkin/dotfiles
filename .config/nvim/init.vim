@@ -1,6 +1,6 @@
 " essentials
 set number          " line numbers
-set spell           " enable spell check
+set nospell         " disable spell check
 set spelllang=en_us,ru_ru
 set mouse=a         " enable mouse interactions
 
