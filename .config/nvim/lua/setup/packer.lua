@@ -1,0 +1,1 @@
+use 'wbthomason/packer.nvim'
