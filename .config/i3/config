@@ -60,10 +60,10 @@ bindsym $mod+a focus parent
 
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
-set $ws1 "1"
-set $ws2 "2"
-set $ws3 "3"
-set $ws4 "4"
+set $ws1 "1:Terminal"
+set $ws2 "2:Keepassxc"
+set $ws3 "3:Web"
+set $ws4 "4:Variety"
 set $ws5 "5"
 set $ws6 "6"
 set $ws7 "7"
@@ -120,19 +120,20 @@ set $nord13  #EBCB8B
 set $nord14  #A3BE8C
 set $nord15  #B48EAD
 
-bar {
-	status_command i3status
-	tray_output primary
-	font pango:Iosevka Medium 22px
-	colors {
-		background $nord0
-		statusline $nord8
-		focused_workspace  $nord3  $nord8
-		active_workspace   $nord3  $nord8
-		inactive_workspace $nord8  $nord3
-		urgent_workspace   $nord3  $nord15
-    }
-}  
+#bar {
+#	status_command i3status
+#	tray_output primary
+#	font pango:Iosevka Medium 22px
+#	colors {
+#		background $nord0
+#		statusline $nord8
+#		focused_workspace  $nord3  $nord8
+#		active_workspace   $nord3  $nord8
+#		inactive_workspace $nord8  $nord3
+#		urgent_workspace   $nord3  $nord15
+#   }
+#	strip_workspace_numbers yes
+#}  
 
 ### CUSTOMS ###
 bindsym $mod+Return exec kitty
@@ -153,6 +154,9 @@ exec feh --bg-scale ~/Repositories/wallpapers/0001.jpg
 
 # start picom for some transparency
 exec --no-startup-id picom -b
+
+# polybar
+exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 # keyboard layout
 exec_always "setxkbmap -model pc104 -layout us,ru -variant ,, -option grp:alt_shift_toggle"
