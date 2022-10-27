@@ -150,5 +150,6 @@ if test -n "$KITTY_INSTALLATION_DIR" -a -e "$KITTY_INSTALLATION_DIR/shell-integr
 # END_KITTY_SHELL_INTEGRATION
 . "$HOME/.cargo/env"
 
-tmux
 . ~/.pfetch
+
+tmux
