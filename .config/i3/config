@@ -21,7 +21,7 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 floating_modifier $mod
 
 bindsym $mod+Shift+q kill
-bindsym $mod+shift+d exec --no-startup-id dmenu_run
+bindsym $mod+shift+d exec --no-startup-id rofi -show drun
 
 # change focus
 bindsym $mod+j focus left
@@ -145,6 +145,7 @@ bindsym $mod+Print exec gnome-screenshot -a
 # Set inner/outer gaps
 gaps inner 10
 gaps outer 0
+gaps top 45
 
 # remove title
 for_window [class="^.*"] border pixel 2
