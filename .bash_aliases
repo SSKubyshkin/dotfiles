@@ -7,4 +7,4 @@ alias nightoff="redshift -x"
 
 alias clipboard-qr="xclip -o | qrencode -t utf8"
 
-alias pfetch="clear && echo "" && echo "" && pfetch"
+alias pfetch="clear && echo "" && pfetch"
