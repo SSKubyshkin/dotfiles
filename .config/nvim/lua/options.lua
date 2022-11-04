@@ -12,7 +12,7 @@ vim.opt.tabstop = 8               -- size of a hard tab stop
 vim.opt.shiftwidth = 4            -- size of an indentation
 vim.opt.softtabstop = 4           -- number of spaces a tab counts for, 0 = off
 vim.opt.autoindent = true         -- copy indent from current line
-vim.opt.expandtab = false         -- always use tabs instead of spaces
+vim.opt.expandtab = false         -- false = always use tabs instead of spaces
 
 -- programming
 vim.opt.syntax = "on"             -- syntax highlighting
