@@ -3,3 +3,5 @@ set recolor-keephue
 set recolor-reverse-video
 
 include catppuccin-latte
+
+set font 'monospace normal 18'
