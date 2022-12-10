@@ -79,6 +79,11 @@ _G.packer_plugins = {
     path = "/home/runitor/.local/share/nvim/site/pack/packer/start/barbar.nvim",
     url = "https://github.com/romgrk/barbar.nvim"
   },
+  nerdtree = {
+    loaded = true,
+    path = "/home/runitor/.local/share/nvim/site/pack/packer/start/nerdtree",
+    url = "https://github.com/preservim/nerdtree"
+  },
   nvim = {
     config = { 'require("setup/catppuccin")' },
     loaded = true,
@@ -94,10 +99,20 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/runitor/.local/share/nvim/site/pack/packer/start/packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
+  },
+  ["toggleterm.nvim"] = {
+    config = { 'require("setup/toggleterm")' },
+    loaded = true,
+    path = "/home/runitor/.local/share/nvim/site/pack/packer/start/toggleterm.nvim",
+    url = "https://github.com/akinsho/toggleterm.nvim"
   }
 }
 
 time([[Defining packer_plugins]], false)
+-- Config for: toggleterm.nvim
+time([[Config for toggleterm.nvim]], true)
+require("setup/toggleterm")
+time([[Config for toggleterm.nvim]], false)
 -- Config for: nvim
 time([[Config for nvim]], true)
 require("setup/catppuccin")
