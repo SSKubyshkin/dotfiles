@@ -160,4 +160,4 @@ exec --no-startup-id picom -b
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 # keyboard layout
-exec_always "setxkbmap -model pc104 -layout us,ru -variant ,, -option grp:alt_shift_toggle"
+exec_always "setxkbmap -model pc104 -layout us,ru -variant ,, -option grp:win_space_toggle"
