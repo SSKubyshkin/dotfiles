@@ -4,7 +4,6 @@ vim.opt.relativenumber = true     -- relative line numbers
 vim.opt.spell = false             -- disable spell check
 vim.opt.spelllang = "en_us"       -- spell check language
 vim.opt.mouse = "a"               -- enable mouse interactions
-
 vim.opt.clipboard = "unnamedplus" -- use system clipboard
 
 -- tabs
