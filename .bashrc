@@ -152,6 +152,5 @@ if test -n "$KITTY_INSTALLATION_DIR" -a -e "$KITTY_INSTALLATION_DIR/shell-integr
 
 . ~/.pfetch
 
-tmux
 export PATH=$PATH:/home/runitor/.spicetify
 export EDITOR=/usr/bin/nvim
