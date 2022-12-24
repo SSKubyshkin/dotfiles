@@ -7,7 +7,7 @@ vim.opt.mouse = "a"               -- enable mouse interactions
 vim.opt.clipboard = "unnamedplus" -- use system clipboard
 
 -- tabs
-vim.opt.tabstop = 8               -- size of a hard tab stop
+vim.opt.tabstop = 4               -- size of a hard tab stop
 vim.opt.shiftwidth = 4            -- size of an indentation
 vim.opt.softtabstop = 4           -- number of spaces a tab counts for, 0 = off
 vim.opt.autoindent = true         -- copy indent from current line
