@@ -148,9 +148,13 @@ eval "$(starship init bash)"
 # BEGIN_KITTY_SHELL_INTEGRATION
 if test -n "$KITTY_INSTALLATION_DIR" -a -e "$KITTY_INSTALLATION_DIR/shell-integration/bash/kitty.bash"; then source "$KITTY_INSTALLATION_DIR/shell-integration/bash/kitty.bash"; fi
 # END_KITTY_SHELL_INTEGRATION
-. "$HOME/.cargo/env"
 
-. ~/.pfetch
+reminder show
+
+export PF_INFO="ascii title os host kernel uptime memory"
+export PF_ASCII="Catppuccin"
 
 export PATH=$PATH:/home/runitor/.spicetify
+export PATH=$PATH:/usr/local/texlive/2022/bin/x86_64-linux
 export EDITOR=/usr/bin/nvim
+export CLASSPATH=$CLASSPATH:.:/home/sergey/Downloads/algs4.jar

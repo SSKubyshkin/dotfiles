@@ -11,4 +11,5 @@ return require('packer').startup(function()
 	use ({ 'preservim/nerdtree' })
 	use ({ 'akinsho/toggleterm.nvim', tag = '*',
 	    config = get_setup('toggleterm') })
+	use ({ 'anuvyklack/pretty-fold.nvim', config = get_setup('pretty-fold') })
 end)

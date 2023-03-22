@@ -16,6 +16,7 @@ vim.opt.expandtab = false         -- false = always use tabs instead of spaces
 -- programming
 vim.opt.syntax = "on"             -- syntax highlighting
 vim.opt.cc = "80"                 -- set an 80 column border for good coding
+vim.opt.foldmethod = "syntax"     -- create folds automatically based on syntax
 
 -- search
 vim.opt.hlsearch = true           -- highlight search
